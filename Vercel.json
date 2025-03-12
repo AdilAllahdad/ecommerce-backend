@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "server.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGO_URI": "@MONGO_URI",
+    "JWT_SECRET": "@JWT_SECRET",
+    "PORT": "5000"
+  }
 }
